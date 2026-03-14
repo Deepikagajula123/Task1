@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./login.html">
+        <h3><u>Details</u></h3>
+        Name:<input type="text" placeholder="Enter Name" name="name" required><br><br>
+        Email: <input type="email" placeholder="Enter email" name="email" required><br><br>
+        Password: <input type="password" placeholder="Enter Password" name="password" required><br><br>
+        Confirm Password: <input type="passsword" placeholder="re enter password" name="repassword" required><br><br>
+        Mobile: <input type="number" placeholder="Enter phone number" name="number"><br>
+        <div>
+            <h3><u>Gender</u></h3>
+            <input type="radio" value="male" name="gender" id="gmale"><label for="gmale">Male</label>
+            <input type="radio" value="female" name="gender" id="gfemale"><label for="gfemale">Female</label>
+        </div>
+        <div>
+            <h3><u>Education</u></h3>
+            <input type="checkbox" value="10th">10th
+            <input type="checkbox" value="inter">Inter
+            <input type="checkbox" value="diploma">Diploma
+            <input type="checkbox" value="btech">Btech
+        </div>
+        <div>
+            <h3><u>City</u></h3>
+            <select>
+                <option value="">Select</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="vijayawada">Vijayawada</option>
+                <option value="banglore">Banglore</option>
+            </select>
+        </div>
+        <div>
+            <h3><u>Address</u></h3>
+            <textarea name=""placeholder="enter Address" id=""></textarea>
+        </div>
+        <div>
+
+            <label for="">Date of Birth</label>
+            <input type="date">
+        </div><br>
+        <div>
+            <label for="">Profile Pic:</label>
+            <input type="file" required>
+        </div><br>
+
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
